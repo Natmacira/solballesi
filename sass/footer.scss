@@ -1,0 +1,14 @@
+/*mobile first*/
+footer {
+	height: 80px;
+	width: 100%;
+	
+	.theme-author {
+		font-size: 16px;
+		@include flex-center;
+
+		img {
+			margin-left: 8px;
+		}
+	}
+}

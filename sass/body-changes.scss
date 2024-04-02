@@ -1,0 +1,58 @@
+/**
+ * Styles changed via user interactions.
+ */
+
+body {
+	padding-top: 160px;
+
+	&.page-scrolled {
+		padding-top: 60px;
+	}
+
+	&.hamburger-menu-active {
+		header {
+			@include media-desktop {
+				background: $theme-black;
+			}
+
+			.inner-container {
+				#hamburger-menu-toggler {
+					height: 16px;
+					width: 32px;
+					top: 20px;
+
+					.bar {
+						&:nth-child(1) {
+							-webkit-transform: rotate(45deg);
+							-ms-transform: rotate(45deg);
+							transform: rotate(45deg);
+						}
+
+						&:nth-child(2) {
+							-webkit-transform: translateX(-100%);
+							-ms-transform: translateX(-100%);
+							transform: translateX(-100%);
+							opacity: 0;
+						}
+
+						&:nth-child(3) {
+							-webkit-transform: rotate(-45deg) translate(8px, -9px);
+							-ms-transform: rotate(-45deg) translate(8px, -9px);
+							transform: rotate(-45deg) translate(8px, -9px);
+						}
+					}
+				}
+
+				#hamburger-menu-container {
+					display: block;
+					left: 0;
+					padding-top: 8px;
+
+					@include media-desktop {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

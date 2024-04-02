@@ -1,0 +1,23 @@
+/**
+ * Main Styles for theme.
+ */
+
+// sass --watch main.scss ../style.min.css --style=compressed
+
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+$theme-black: #000000;
+$theme-main-font: 'Poppins', sans-serif;
+
+$img-directory: "img/";
+
+@import 'normalize';
+@import 'mixins';
+@import 'fonts';
+@import 'skeleton';
+@import 'body-changes';
+@import 'header';
+@import 'footer';
+@import 'pages';
+@import 'single';
