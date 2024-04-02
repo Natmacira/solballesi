@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Empty_Base
+ * @package Sol_Ballesi
  */
 
 get_header();
@@ -18,7 +18,7 @@ get_header();
 while ( have_posts() ) {
 	the_post();
 
-	empty_base_print_post();
+	sol_ballesi_print_post();
 
 }
 

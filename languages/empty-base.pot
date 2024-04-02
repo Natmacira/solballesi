@@ -2,8 +2,8 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Empty Base 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/empty-base\n"
+"Project-Id-Version: Sol Ballesi 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sol-ballesi\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -12,10 +12,10 @@ msgstr ""
 "POT-Creation-Date: 2020-12-28T02:05:11+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
-"X-Domain: empty-base\n"
+"X-Domain: sol-ballesi\n"
 
 #. Theme Name of the theme
-msgid "Empty Base"
+msgid "Sol Ballesi"
 msgstr ""
 
 #. Author of the theme

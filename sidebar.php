@@ -4,9 +4,9 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Empty_Base
+ * @package Sol_Ballesi
  */
 
 ?>
 
-<aside><?php dynamic_sidebar( 'empty-base' ); ?></aside>
+<aside><?php dynamic_sidebar( 'sol-ballesi' ); ?></aside>

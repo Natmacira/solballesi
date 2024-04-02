@@ -1,21 +1,21 @@
 <?php
 /**
- * Empty Base Theme functions and definitions
+ * Sol Ballesi Theme functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Empty_Theme
+ * @package Sol_Ballesi_Theme
  */
 
-if ( ! defined( 'EMPTY_BASE_VERSION' ) ) {
-	define( 'EMPTY_BASE_VERSION', '0.0.2' );
+if ( ! defined( 'SOL_BALLESI_VERSION' ) ) {
+	define( 'SOL_BALLESI_VERSION', '0.0.2' );
 }
 
 add_action(
 	'wp_enqueue_scripts',
 	function() {
-		wp_enqueue_style( 'empty_base', get_stylesheet_directory_uri() . '/style.min.css', array(), EMPTY_BASE_VERSION );
-		wp_enqueue_script( 'empty_base', get_stylesheet_directory_uri() . '/js/main.js', array(), EMPTY_BASE_VERSION, true );
+		wp_enqueue_style( 'sol_ballesi', get_stylesheet_directory_uri() . '/style.min.css', array(), SOL_BALLESI_VERSION );
+		wp_enqueue_script( 'sol_ballesi', get_stylesheet_directory_uri() . '/js/main.js', array(), SOL_BALLESI_VERSION, true );
 	}
 );
 
@@ -60,7 +60,7 @@ add_action(
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 */
-		load_theme_textdomain( 'empty-base', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'sol-ballesi', get_template_directory() . '/languages' );
 
 		/*
 		 * Let WordPress manage the document title.
@@ -83,9 +83,9 @@ add_action(
 
 		register_nav_menus(
 			array(
-				'header'    => esc_html__( 'Header Menu', 'empty-base' ),
-				'hamburger' => esc_html__( 'Hamburger Menu (Mobile)', 'empty-base' ),
-				'footer'    => esc_html__( 'Footer Menu', 'empty-base' ),
+				'header'    => esc_html__( 'Header Menu', 'sol-ballesi' ),
+				'hamburger' => esc_html__( 'Hamburger Menu (Mobile)', 'sol-ballesi' ),
+				'footer'    => esc_html__( 'Footer Menu', 'sol-ballesi' ),
 			)
 		);
 	}
@@ -106,10 +106,10 @@ add_action(
 	function() {
 		register_sidebar(
 			array(
-				'name'          => 'Empty Base',
-				'id'            => 'empty-base',
+				'name'          => 'Sol Ballesi',
+				'id'            => 'sol-ballesi',
 				'class'         => '',
-				'before_widget' => '<div class="widget empty-base">',
+				'before_widget' => '<div class="widget sol-ballesi">',
 				'after_widget'  => '</div>',
 				'before_title'  => '<h3>',
 				'after_title'   => '</h3>',
@@ -135,7 +135,7 @@ if ( $disable_gutenberg ) {
  *
  * @return array The menu.
  */
-function empty_base_get_menu( $location ) {
+function sol_ballesi_get_menu( $location ) {
 	global $wp;
 	$menu = null;
 
@@ -192,7 +192,7 @@ function empty_base_get_menu( $location ) {
  *
  * @return string Post excerpt.
  */
-function empty_base_get_excerpt( $post, $num_words = 55 ) {
+function sol_ballesi_get_excerpt( $post, $num_words = 55 ) {
 	if ( ! empty( $post->post_excerpt ) ) {
 		$excerpt = $post->post_excerpt;
 	} else {
@@ -208,7 +208,7 @@ function empty_base_get_excerpt( $post, $num_words = 55 ) {
 /**
  * Prints the menu body class.
  */
-function empty_base_print_body_class() {
+function sol_ballesi_print_body_class() {
 	global $wp_query;
 
 	$classes = array();
@@ -275,13 +275,13 @@ function empty_base_print_body_class() {
  *
  * @param int $menu_id The ID identifying the menu.
  */
-function empty_base_print_menu( $menu_id ) {
-	$menu   = empty_base_get_menu( $menu_id );
+function sol_ballesi_print_menu( $menu_id ) {
+	$menu   = sol_ballesi_get_menu( $menu_id );
 	$output = '';
 
 	if ( $menu ) {
 		$output  = '<nav id="menu-' . esc_attr( $menu_id ) . '">';
-		$output .= empty_base_print_menu_object( $menu );
+		$output .= sol_ballesi_print_menu_object( $menu );
 	}
 
 	$output .= '</nav>';
@@ -298,7 +298,7 @@ function empty_base_print_menu( $menu_id ) {
  *
  * @return string The HTML representing the menu.
  */
-function empty_base_print_menu_object( $menu ) {
+function sol_ballesi_print_menu_object( $menu ) {
 	$output = '<ul>';
 
 	foreach ( $menu as $item ) {
@@ -323,7 +323,7 @@ function empty_base_print_menu_object( $menu ) {
 		}
 
 		if ( ! empty( $item['submenu'] ) ) {
-			$output .= empty_base_print_menu_object( $item['submenu'] );
+			$output .= sol_ballesi_print_menu_object( $item['submenu'] );
 		}
 
 		$output .= '</li>';
@@ -350,7 +350,7 @@ function empty_base_print_menu_object( $menu ) {
  * @return void|string The HTML representing the post if $atts['output'] is
  *                     true.
  */
-function empty_base_print_post( $post_id = null, $atts = array() ) {
+function sol_ballesi_print_post( $post_id = null, $atts = array() ) {
 	$html = '';
 
 	$atts = shortcode_atts(
@@ -409,10 +409,10 @@ function empty_base_print_post( $post_id = null, $atts = array() ) {
 			if ( $post->post_excerpt ) {
 				$html .= '<div class="content">';
 
-				$html .= empty_base_print_excerpt( $post, 100, false );
+				$html .= sol_ballesi_print_excerpt( $post, 100, false );
 
 				$html .= '<a href="' . esc_url( $link ) . '" title="' . esc_attr( $title ) . '" class="read-more">';
-				$html .= esc_html__( 'More', 'empty-base' ) . '</a>';
+				$html .= esc_html__( 'More', 'sol-ballesi' ) . '</a>';
 				$html .= '</div>';
 			} elseif ( $post->post_content ) {
 				$html .= '<div class="content">';
@@ -420,7 +420,7 @@ function empty_base_print_post( $post_id = null, $atts = array() ) {
 				$html .= wp_kses_post( apply_filters( 'the_content', $post->post_content ) );
 
 				$html .= '<a href="' . esc_url( $link ) . '" title="' . esc_attr( $title ) . '" class="read-more">';
-				$html .= esc_html__( 'More', 'empty-base' ) . '</a>';
+				$html .= esc_html__( 'More', 'sol-ballesi' ) . '</a>';
 				$html .= '</div>';
 			}
 		}
@@ -446,11 +446,11 @@ function empty_base_print_post( $post_id = null, $atts = array() ) {
  *
  * @return void|string Post excerpt if $output is true.
  */
-function empty_base_print_excerpt( $post, $num_words = 100, $output = true ) {
+function sol_ballesi_print_excerpt( $post, $num_words = 100, $output = true ) {
 	if ( $output ) {
-		echo esc_html( empty_base_get_excerpt( $post, $num_words ) );
+		echo esc_html( sol_ballesi_get_excerpt( $post, $num_words ) );
 	} else {
-		return esc_html( empty_base_get_excerpt( $post, $num_words ) );
+		return esc_html( sol_ballesi_get_excerpt( $post, $num_words ) );
 	}
 }
 

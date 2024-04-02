@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Empty_Base
+ * @package Sol_Ballesi
  */
 
 get_header();

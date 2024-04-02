@@ -4,14 +4,14 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Empty_Base
+ * @package Sol_Ballesi
  */
 
 ?>
 		</main>
 		<footer id="colophon" class="site-footer">
 <?php
-empty_base_print_menu( 'footer' );
+sol_ballesi_print_menu( 'footer' );
 ?>
 		</footer>
 		<?php wp_footer(); ?>
