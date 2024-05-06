@@ -110,6 +110,7 @@ body {
 				font-weight: 700;
 				line-height: 66.48px;
 				color: $theme-green;
+				padding-bottom: 8px;
 			}
 			span {
 				padding-bottom: 8px;
@@ -124,13 +125,31 @@ body {
 	}
 
 	section.section-contact {
-		padding-top: 55px;
+		padding: 55px 16px 80px;
+		background-image: linear-gradient(white, #F2F2F2);
+
 		h5 {
 			font-size: 40px;
 			font-weight: 700;
 			color: #4f4f4f;
 			line-height: 66.48px;
 			padding: 0 16px;
+		}
+		img {
+			padding-bottom: 28px;
+		}
+		p {
+			font-weight: 700;
+			line-height: 26.59px;
+		}
+
+		form {
+			padding-top: 12px;
+			label {
+				font-weight: 300;
+				font-size: 16px;
+				color: #4f4f4f;
+			}
 		}
 	}
 }

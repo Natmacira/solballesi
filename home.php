@@ -111,7 +111,17 @@ get_header();
 				<h5>Escríbeme!</h5>
 			</figcaption>
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/sol-12.png'); ?>" alt="Una imagen tomada con un ángulo lateral alto, donde se ve un recorte de Sol sentada en una mesa con la computadora portátil, escribiendo.">
+			<p>
+				Me encantaría acompañarte.
+				Completa el formulario indicando el motivo de tu consulta.
+			</p>
 		</figure>
+		<form action="">
+			<label>Nombre<input type="text"></label>
+			<label>Email<input type="email"></label>
+			<label>Mensaje<input type="text"></label>
+			<button type="submit">Enviar</button>
+		</form>
 	</section>
 </main>
 
