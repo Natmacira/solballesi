@@ -67,8 +67,16 @@ body {
 			p {
 				padding-bottom: 20px;
 			}
-			padding: 0 16px;
+			padding: 0 16px 40px;
 		}
+	}
+	section.section-therapy-individual {
+		background-image: linear-gradient(white, $theme-pink);
+		margin-bottom: 80px;
+	}
+	section.section-therapy-couples {
+		background-image: linear-gradient(white, $theme-green);
+		margin-bottom: 40px;
 	}
 
 	section.section-fees {
