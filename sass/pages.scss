@@ -2,9 +2,20 @@ body {
 	img {
 		width: 100%;
 		margin: 0 auto;
-		padding: 0 25px;
+		padding: 0 25px 32px;
+	}
+	p {
+		font-size: 16px;
+		line-height: 26.59px;
 	}
 	section.section-title {
+		figure {
+			content: " ";
+			background-image: url(img/linea-verde-mob-1.png);
+			background-position-y: 46px;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
 		figcaption {
 			h1 {
 				font-family: "Inter", sans-serif;
@@ -21,6 +32,97 @@ body {
 				line-height: 39px;
 				margin: 0 auto;
 			}
+		}
+	}
+
+	section.section-about-work {
+		padding: 230px 16px 80px;
+		content: " ";
+		background-image: url(img/rulo-rosa-mob-1.png);
+		background-position-y: 24px;
+		background-repeat: no-repeat;
+		margin-top: -65px;
+		background-size: contain;
+		h2 {
+			font-size: 40px;
+			font-weight: 700;
+			color: $theme-pink;
+			line-height: 66.48px;
+			padding-bottom: 8px;
+		}
+		p {
+			padding-bottom: 8px;
+		}
+	}
+
+	section.section-therapy-individual,
+	section.section-therapy-couples {
+		figcaption {
+			h3 {
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 33.24px;
+				padding-bottom: 8px;
+			}
+			p {
+				padding-bottom: 20px;
+			}
+			padding: 0 16px;
+		}
+	}
+
+	section.section-fees {
+		margin: 48px 16px;
+		padding: 40px;
+		border: solid 3px #e0e0e0;
+		border-radius: 4px;
+
+		span {
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 33.24px;
+		}
+		p {
+			padding-top: 16px;
+		}
+		p.fee-box {
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 26.59px;
+			padding-top: 0;
+		}
+	}
+
+	section.section-about-me {
+		figcaption {
+			padding: 0 16px;
+
+			h4 {
+				font-size: 40px;
+				font-weight: 700;
+				line-height: 66.48px;
+				color: $theme-green;
+			}
+			span {
+				padding-bottom: 8px;
+				font-weight: 700;
+				display: block;
+			}
+
+			p {
+				padding-bottom: 8px;
+			}
+		}
+	}
+
+	section.section-contact {
+		padding-top: 55px;
+		h5 {
+			font-size: 40px;
+			font-weight: 700;
+			color: #4f4f4f;
+			line-height: 66.48px;
+			padding: 0 16px;
 		}
 	}
 }

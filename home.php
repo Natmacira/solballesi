@@ -28,11 +28,14 @@ get_header();
 		<h2>Cómo trabajo</h2>
 		<p>En mi consulta un aspecto clave es que las personas se sientan cómodas y seguras desde el primer momento porque conozco de
 			primera mano los nervios y ansiedades que conlleva iniciar terapia.
-			<br>
+		</p>
+		<p>
 			En los primeros encuentros me parece importante establecer los objetivos terapéuticos que serán la brújula que guíe el proceso.
-			<br>
+		</p>
+		<p>
 			Vamos a utilizar ,además de la palabra, diferentes recursos como por ejemplo libros, textos, películas, ilustraciones, guías, etc
-			<br>
+		</p>
+		<p>
 			Las sesiones pueden realizarse virtual o presencialmente en Berlín.
 		</p>
 	</section>
@@ -41,10 +44,12 @@ get_header();
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/sol-15.png'); ?>" alt="Una imagen tomada desde arriba, donde se ve las piernas de Sol, en una posición de estar sentada en el piso. A su alrededor se ven unos libros y lápices esparcidos por el suelo.">
 			<figcaption>
 				<h3>Terapia individual</h3>
-				<p>En las sesiones individuales , se revisan pensamientos, emociones y patrones de comportamiento que te generan inquietud o angustia.
-					<br>
-					Conversaremos acerca de ti,de tus miedos e inseguridades y construiremos juntxs herramientas que te sean útiles para afrontarlos.
-					<br>
+				<p>En las sesiones individuales, se revisan pensamientos, emociones y patrones de comportamiento que te generan inquietud o angustia.
+				</p>
+				<p>
+					Conversaremos acerca de ti, de tus miedos e inseguridades y construiremos juntxs herramientas que te sean útiles para afrontarlos.
+				</p>
+				<p>
 					Las consultas duran 50 minutos y la frecuencia puede ser semanal o quincenal.
 				</p>
 			</figcaption>
@@ -57,11 +62,14 @@ get_header();
 				<h3>Terapia de pareja</h3>
 				<p>En las sesiones de pareja, trabajaremos en conjunto para mejorar la comunicación y resolver conflictos que provocan malestar cotidiano
 					y perturban el desarrollo del vínculo y de cada integrante.
-					<br>
+				</p>
+				<p>
 					Exploramos temas como: expectativas, roles, intimidad, malentendidos, discusiones etc.
-					<br>
+				</p>
+				<p>
 					El objetivo es mejorar la calidad de la relación y fomentar un ambiente de apoyo mutuo y satisfacción emocional.
-					<br>
+				</p>
+				<p>
 					Las consultas duran 60 minutos y la frecuencia puede ser semanal o quincenal.
 				</p>
 			</figcaption>
@@ -69,8 +77,8 @@ get_header();
 	</section>
 	<section class="section-fees">
 		<span>Tarifas</span>
-		<p>Sesiones Individuales 85€</p>
-		<p>Sesiones de pareja 100€</p>
+		<p class="fee-box">Sesiones Individuales 85€</p>
+		<p class="fee-box">Sesiones de pareja 100€</p>
 		<p>El seguro médico estatal (gesetzliche Krankenkasse) no cubre la terapia,
 			sin embargo ofrezco algunas plazas a tarifas reducidas para estudiantes o personas con ingresos variables.</p>
 	</section>
@@ -79,15 +87,19 @@ get_header();
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/sol-18.png'); ?>" alt="Una imagen tomada de costado, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
 			<figcaption>
 				<h4>SOBRE MI</h4>
-				<p><span>Hola Soy Sol, psicóloga y amante de la lectura.</span>
+				<span>Hola Soy Sol, psicóloga y amante de la lectura.</span>
+				<p>
 					Comprometida con la salud mental, llevo más de 8 años brindando psicoterapia y más de 2 participando y organizando círculos de lectura.
-					<br>
+				</p>
+				<p>
 					Me formé en el área de género y diversidades, la atención de parejas y familias y en primeros auxilios psicológicos.
 					También tiene influencia en mi haber emigrado a Alemania.
-					<br>
+				</p>
+				<p>
 					Gracias a este recorrido, continúo ejerciendo como psicoterapeuta individual y de pareja y enriqueciendo el proceso terapéutico
 					con el análisis de textos junto a mis consultantes.
-					<br>
+				</p>
+				<p>
 					Al mismo tiempo coordinar espacios grupales y de lectura se volvió una valiosa herramienta de autocuidado y conocimiento interpersonal.
 				</p>
 			</figcaption>
