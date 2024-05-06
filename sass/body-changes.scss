@@ -11,9 +11,9 @@ body {
 
 	&.hamburger-menu-active {
 		header {
-			@include media-desktop {
-				background: $theme-black;
-			}
+			// @include media-desktop {
+			// 	background: $theme-black;
+			// }
 
 			.inner-container {
 				#hamburger-menu-toggler {

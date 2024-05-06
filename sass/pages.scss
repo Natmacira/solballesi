@@ -1,19 +1,26 @@
-/**
- * Styles for pages.
- */
-
 body {
-	/*
-	* Generic styles for every page except for Home.
-	*/
-	&.page {
-
-        &.blog-page {
-			/* Styles for blog page */
-			
+	img {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 25px;
+	}
+	section.section-title {
+		figcaption {
+			h1 {
+				font-family: "Inter", sans-serif;
+				font-size: 48px;
+				text-align: center;
+				padding-bottom: 8px;
+				margin-bottom: 0;
+				font-weight: 100;
+			}
+			p {
+				max-width: 290px;
+				text-align: center;
+				font-size: 24px;
+				line-height: 39px;
+				margin: 0 auto;
+			}
 		}
 	}
 }
-
-
-
