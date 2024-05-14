@@ -38,7 +38,7 @@ body {
 	section.section-about-work {
 		padding: 230px 16px 80px;
 		content: " ";
-		background-image: url(img/rulo-rosa-mob-1.png);
+		background-image: url(img/rulo-rosa-mob-1.svg);
 		background-position-y: 24px;
 		background-repeat: no-repeat;
 		margin-top: -65px;
@@ -126,7 +126,7 @@ body {
 
 	section.section-contact {
 		padding: 55px 16px 80px;
-		background-image: linear-gradient(white, #F2F2F2);
+		background-image: linear-gradient(white, #f2f2f2);
 
 		h5 {
 			font-size: 40px;
@@ -145,10 +145,30 @@ body {
 
 		form {
 			padding-top: 12px;
+			padding-bottom: 70px;
 			label {
 				font-weight: 300;
 				font-size: 16px;
 				color: #4f4f4f;
+				display: block;
+				input {
+					display: block;
+					background-color: white;
+					border: solid 2px $theme-green;
+					width: 100%;
+					border-radius: 8px;
+				}
+			}
+
+			button {
+				float: right;
+				margin-top: 8px;
+				border-radius: 8px;
+				border: none;
+				background: $theme-green;
+				padding: 10px 40px;
+				font-size: 20px;
+				font-weight: bold;
 			}
 		}
 	}
