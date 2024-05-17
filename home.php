@@ -105,7 +105,7 @@ get_header();
 			</figcaption>
 		</figure>
 	</section>
-	<section class="section-contact">
+	<section class="section-contact contact-section" id="contacto">
 		<figure>
 			<figcaption>
 				<h5>Escríbeme!</h5>
@@ -116,12 +116,25 @@ get_header();
 				Completa el formulario indicando el motivo de tu consulta.
 			</p>
 		</figure>
-		<form action="">
-			<label>Nombre<input type="text"></label>
-			<label>Email<input type="email"></label>
-			<label>Mensaje<input type="text"></label>
-			<button type="submit">Enviar</button>
-		</form>
+		<?php
+		if (isset($success)) {
+			if ($success) {
+				echo '<br><h2 style="text-align: center;margin: 50px auto 30px;">Gracias, hemos recibido tu consulta, en breve te estaremos contactando</h2>';
+			} else {
+				echo '<br><h2 style="text-align: center;margin: 50px auto 30px;">Parece que ha habido un error. Vuelve a intentarlo más tarde</h2>';
+			}
+		} else {
+		?>
+			<form action="#contacto" id="form" method="POST">
+				<label>Nombre<input type="text" name="nombre" id="nombre" placeholder="Nombre" required></label>
+				<label>Email<input type="mail" placeholder="Mail" id="mail" name="mail" required></label>
+				<label>Mensaje <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulta" required></textarea>
+				</label>
+				<button type="submit">Enviar</button>
+			</form>
+		<?php
+		}
+		?>
 	</section>
 </main>
 
