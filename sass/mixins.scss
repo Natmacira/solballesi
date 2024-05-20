@@ -17,3 +17,9 @@
         @content;
     }
 }
+
+@mixin media-desktop-big {
+    @media screen and (min-width: $breakpoint-desktop-big) {
+        @content;
+    }
+}

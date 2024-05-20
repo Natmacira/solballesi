@@ -24,7 +24,9 @@ ul {
 
 body {
 	font-family: $theme-main-font;
-
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
 	main {
 		padding-top: 40px;
 		min-height: 100vh;

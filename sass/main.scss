@@ -5,7 +5,8 @@
 // sass --watch main.scss ../style.min.css --style=compressed
 
 $breakpoint-tablet: 768px;
-$breakpoint-desktop: 1024px;
+$breakpoint-desktop: 1200px;
+$breakpoint-desktop-big: 1366px;
 
 $theme-pink: #EEAEAE;
 $theme-green: #BFD9B6;

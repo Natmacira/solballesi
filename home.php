@@ -44,13 +44,15 @@ global $succes;
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-15.svg'); ?>" alt="Una imagen tomada desde arriba, donde se ve las piernas de Sol, en una posición de estar sentada en el piso. A su alrededor se ven unos libros y lápices esparcidos por el suelo.">
 			<figcaption>
 				<h3>Terapia individual</h3>
-				<p>
-					En las sesiones individuales se revisan pensamientos, emociones y patrones de comportamiento que te generan inquietud o angustia. </p>
-				<p>
-					Conversaremos acerca de ti, de tus miedos e inseguridades y construiremos herramientas que te sean útiles para afrontarlos. </p>
-				<p>
-					Las consultas duran 50 minutos y la frecuencia puede ser semanal o quincenal.
-				</p>
+				<div>
+					<p>
+						En las sesiones individuales se revisan pensamientos, emociones y patrones de comportamiento que te generan inquietud o angustia. </p>
+					<p>
+						Conversaremos acerca de ti, de tus miedos e inseguridades y construiremos herramientas que te sean útiles para afrontarlos. </p>
+					<p>
+						Las consultas duran 50 minutos y la frecuencia puede ser semanal o quincenal.
+					</p>
+				</div>
 			</figcaption>
 		</figure>
 	</section>
@@ -95,10 +97,10 @@ global $succes;
 					Luego me formé en distintas áreas como primeros auxilios psicológicos y especialmente en Género y Diversidades, temática que me apasiona y en la que sigo profundizando.
 				</p>
 				<p>
-					También influyó en mi práctica profesional haber emigrado a Alemania y atravesar el duelo migratorio, por lo que hoy me dedico a acompañar los complejos cambios que la migración conlleva. 
+					También influyó en mi práctica profesional haber emigrado a Alemania y atravesar el duelo migratorio, por lo que hoy me dedico a acompañar los complejos cambios que la migración conlleva.
 				</p>
 				<p>
-				Al mismo tiempo coordinar espacios grupales y de lectura se volvió una valiosa herramienta de autocuidado y conocimiento interpersonal que me enriquece personal y profesionalmente.
+					Al mismo tiempo coordinar espacios grupales y de lectura se volvió una valiosa herramienta de autocuidado y conocimiento interpersonal que me enriquece personal y profesionalmente.
 				</p>
 			</figcaption>
 		</figure>

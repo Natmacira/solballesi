@@ -149,6 +149,44 @@ body {
 	section.section-therapy-individual {
 		background-image: linear-gradient(white, $theme-pink);
 		margin-bottom: 80px;
+		@include media-desktop {
+			figure {
+				position: relative;
+				img {
+					position: absolute;
+					right: 50px;
+					top: -93px;
+					width: 364px;
+				}
+
+				figcaption {
+					padding-left: 41px;
+					padding-top: 90px;
+					div {
+						display: flex;
+						flex-direction: row;
+						align-items: baseline;
+						justify-content: left;
+						p {
+							max-width: 250px;
+							padding-right: 20px;
+						}
+					}
+				}
+			}
+		}
+		@include media-desktop-big {
+			figure {
+				img {
+					right: 70px;
+				}
+
+				figcaption {
+					padding-left: 80px;
+				
+				}
+			}
+		}
 	}
 	section.section-therapy-couples {
 		background-image: linear-gradient(white, $theme-green);
