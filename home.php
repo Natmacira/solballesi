@@ -26,7 +26,7 @@ global $succes;
 			</figcaption>
 		</figure>
 	</section>
-	<section class="section-about-work">
+	<section class="section-about-work" id="ancla-about-work">
 		<h2>Cómo trabajo</h2>
 		<p>En mi consulta un aspecto clave es que las personas se sientan cómodas y seguras desde el primer momento porque conozco de
 			primera mano los nervios y ansiedades que conlleva iniciar terapia.
@@ -84,7 +84,7 @@ global $succes;
 		<p>El seguro médico estatal (gesetzliche Krankenkasse) no cubre la terapia,
 			sin embargo ofrezco algunas plazas a tarifas reducidas para estudiantes o personas con ingresos variables.</p>
 	</section>
-	<section class="section-about-me">
+	<section class="section-about-me" id="sobre-mi-ancla">
 		<figure>
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-18.svg'); ?>" alt="Una imagen tomada de costado, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
 			<figcaption>
