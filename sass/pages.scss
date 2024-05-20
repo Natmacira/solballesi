@@ -132,14 +132,14 @@ body {
 	}
 
 	section.section-contact {
-		padding: 55px 16px 80px;
 		background-image: linear-gradient(white, #f2f2f2);
+		
 		figure {
 			content: " ";
-			background-image: url(img/linea-verde-mob-2.svg);
-			background-position-y: 181px;
+			background-image: url(img/Ellipse-mob-1.svg);
+			background-position-y: 190px;
 			background-repeat: no-repeat;
-			background-size: contain;
+			background-size: auto;
 			h5 {
 				font-size: 40px;
 				font-weight: 700;
@@ -148,17 +148,26 @@ body {
 				padding: 0 16px;
 			}
 			img {
-				padding-bottom: 28px;
+				padding: 55px 25px 108px;
+
+				// padding-bottom: 28px;
 			}
 			p {
 				font-weight: 700;
 				line-height: 26.59px;
+				padding-left: 16px;
 			}
 		}
 
 		form {
+			padding: 0 16px;
 			padding-top: 12px;
-			padding-bottom: 70px;
+			padding-bottom: 160px;
+			content: " ";
+			background-image: url(img/rulo-rosa-mob-2.svg);
+			background-position-y: 303px;
+			background-repeat: no-repeat;
+			background-size: auto;
 			label {
 				font-weight: 300;
 				font-size: 16px;
@@ -181,7 +190,7 @@ body {
 				border-radius: 8px;
 				border: none;
 				background: $theme-green;
-				padding: 10px 40px;
+				padding: 15px 65px;
 				font-size: 20px;
 				font-weight: bold;
 			}
