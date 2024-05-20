@@ -115,9 +115,19 @@ body {
 			color: $theme-pink;
 			line-height: 66.48px;
 			padding-bottom: 8px;
+			@include media-desktop {
+				max-width: 500px;
+				margin-left: 20%;
+			}
 		}
-		p {
-			padding-bottom: 8px;
+		.inner-continaer-paragraphs {
+			@include media-desktop {
+				max-width: 500px;
+				margin-left: 20%;
+			}
+			p {
+				padding-bottom: 8px;
+			}
 		}
 	}
 

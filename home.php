@@ -28,18 +28,20 @@ global $succes;
 	</section>
 	<section class="section-about-work" id="ancla-about-work">
 		<h2>Cómo trabajo</h2>
-		<p>En mi consulta un aspecto clave es que las personas se sientan cómodas y seguras desde el primer momento porque conozco de
-			primera mano los nervios y ansiedades que conlleva iniciar terapia.
-		</p>
-		<p>
-			En los primeros encuentros me parece importante establecer los objetivos terapéuticos que serán la brújula que guíe el proceso.
-		</p>
-		<p>
-			Vamos a utilizar ,además de la palabra, diferentes recursos como por ejemplo libros, textos, películas, ilustraciones, guías, etc
-		</p>
-		<p>
-			Las sesiones pueden realizarse virtual o presencialmente en Berlín.
-		</p>
+		<div class="inner-continaer-paragraphs">
+			<p>En mi consulta un aspecto clave es que las personas se sientan cómodas y seguras desde el primer momento porque conozco de
+				primera mano los nervios y ansiedades que conlleva iniciar terapia.
+			</p>
+			<p>
+				En los primeros encuentros me parece importante establecer los objetivos terapéuticos que serán la brújula que guíe el proceso.
+			</p>
+			<p>
+				Vamos a utilizar ,además de la palabra, diferentes recursos como por ejemplo libros, textos, películas, ilustraciones, guías, etc
+			</p>
+			<p>
+				Las sesiones pueden realizarse virtual o presencialmente en Berlín.
+			</p>
+		</div>
 	</section>
 	<section class="section-therapy-individual">
 		<figure>
@@ -127,15 +129,15 @@ global $succes;
 	</section>
 
 	<section class="home-blog">
-	<h2>Blog</h2>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+		<h2>Blog</h2>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</section>
 </main>
 
