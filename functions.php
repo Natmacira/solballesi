@@ -542,9 +542,9 @@ function custom_form_shortcode() {
     custom_form_handler(); // Manejar el envío del formulario si se ha enviado
     ?>
     <form action="#contacto" id="form" method="POST">
-        <label>Nombre<input type="text" name="nombre" id="nombre" placeholder="Nombre" required></label>
-        <label>Email<input type="email" placeholder="Mail" id="mail" name="mail" required></label>
-        <label>Mensaje <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulta" required></textarea></label>
+        <label>Nombre<input type="text" name="nombre" id="nombre" required></label>
+        <label>Email<input type="email" id="mail" name="mail" required></label>
+        <label>Mensaje <textarea name="consulta" id="consulta" cols="30" rows="10" required></textarea></label>
         <input type="hidden" name="custom_form_submitted" value="1">
         <button type="submit">Enviar</button>
     </form>

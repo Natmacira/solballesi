@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The footer template.
  *
@@ -8,12 +9,19 @@
  */
 
 ?>
-		</main>
-		<footer id="colophon" class="site-footer">
-<?php
-sol_ballesi_print_menu( 'footer' );
-?>
-		</footer>
-		<?php wp_footer(); ?>
-	</body>
+</main>
+<footer id="footer" class="site-footer">
+
+<h6>Sol Ballesi</h6>
+<p>Psicóloga hispanohablante
+en Berlín 
+</p>
+<a href="mailto:solballesi@gmail.com">solballesi@gmail.com</a>
+	<?php
+	// sol_ballesi_print_menu( 'footer' );
+	?>
+</footer>
+<?php wp_footer(); ?>
+</body>
+
 </html>

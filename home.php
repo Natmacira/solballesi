@@ -125,6 +125,18 @@ global $succes;
 
 		?>
 	</section>
+
+	<section class="home-blog">
+	<h2>Blog</h2>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	</section>
 </main>
 
 <?php
