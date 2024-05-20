@@ -17,7 +17,7 @@ global $succes;
 <main>
 	<section class="section-title">
 		<figure>
-			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-14.svg'); ?>" alt="Una foto de torso de Sol, se la ve sonriente con los brazos cruzados. Viste una camisa cuadriculada en tonos anaranjados y un pantalón negro.">
+			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-14.jpg'); ?>" alt="Una foto de torso de Sol, se la ve sonriente con los brazos cruzados. Viste una camisa cuadriculada en tonos anaranjados y un pantalón negro.">
 			<figcaption>
 				<h1>Sol Ballesi</h1>
 				<p>Psicóloga hispanohablante
@@ -41,7 +41,7 @@ global $succes;
 	</section>
 	<section class="section-therapy-individual">
 		<figure>
-			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-15.svg'); ?>" alt="Una imagen tomada desde arriba, donde se ve las piernas de Sol, en una posición de estar sentada en el piso. A su alrededor se ven unos libros y lápices esparcidos por el suelo.">
+			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-15.jpg'); ?>" alt="Una imagen tomada desde arriba, donde se ve las piernas de Sol, en una posición de estar sentada en el piso. A su alrededor se ven unos libros y lápices esparcidos por el suelo.">
 			<figcaption>
 				<h3>Terapia individual</h3>
 				<div>
@@ -58,7 +58,7 @@ global $succes;
 	</section>
 	<section class="section-therapy-couples">
 		<figure>
-			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-151.svg'); ?>" alt="Una imagen tomada de frente, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
+			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-151.jpg'); ?>" alt="Una imagen tomada de frente, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
 			<figcaption>
 				<h3>Terapia de pareja</h3>
 				<p>En las sesiones de pareja, trabajaremos en conjunto para mejorar la comunicación y resolver conflictos que provocan malestar cotidiano
@@ -84,7 +84,7 @@ global $succes;
 	</section>
 	<section class="section-about-me" id="sobre-mi-ancla">
 		<figure>
-			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-18.svg'); ?>" alt="Una imagen tomada de costado, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
+			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-18.jpg'); ?>" alt="Una imagen tomada de costado, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
 			<figcaption>
 				<h4>SOBRE MI</h4>
 				<span>Hola Soy Sol, psicóloga y amante de la lectura.</span>
@@ -110,7 +110,7 @@ global $succes;
 			<figcaption>
 				<h5>Escríbeme!</h5>
 			</figcaption>
-			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-12.svg'); ?>" alt="Una imagen tomada con un ángulo lateral alto, donde se ve un recorte de Sol sentada en una mesa con la computadora portátil, escribiendo.">
+			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-12.jpg'); ?>" alt="Una imagen tomada con un ángulo lateral alto, donde se ve un recorte de Sol sentada en una mesa con la computadora portátil, escribiendo.">
 			<p>
 				Me encantaría acompañarte.
 				Completa el formulario indicando el motivo de tu consulta.
