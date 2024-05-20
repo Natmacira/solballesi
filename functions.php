@@ -513,3 +513,42 @@ add_filter(
 	10,
 	2
 );
+
+// Función para manejar el formulario y el envío
+function custom_form_handler() {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['custom_form_submitted'])) {
+        // Sanitizar y validar los datos del formulario
+        $name = sanitize_text_field($_POST['nombre']);
+        $email = sanitize_email($_POST['mail']);
+        $message = sanitize_textarea_field($_POST['consulta']);
+
+        // Puedes procesar los datos aquí, como enviarlos por correo electrónico
+        $to = 'natimciraolo@gmail.com';
+        $subject = 'Mensaje dejado en Formulario de Contacto';
+        $body = "Nombre: $name\nCorreo: $email\nMensaje:\n$message";
+        $headers = ['Content-Type: text/plain; charset=UTF-8'];
+
+        if (wp_mail($to, $subject, $body, $headers)) {
+            echo '<p style="color: green;">Gracias, hemos recibido tu consulta, en breve te estaremos contactando.</p>';
+        } else {
+            echo '<p style="color: red;">Parece que ha habido un error. Vuelve a intentarlo más tarde.</p>';
+        }
+    }
+}
+
+// Shortcode  formulario
+function custom_form_shortcode() {
+    ob_start();
+    custom_form_handler(); // Manejar el envío del formulario si se ha enviado
+    ?>
+    <form action="#contacto" id="form" method="POST">
+        <label>Nombre<input type="text" name="nombre" id="nombre" placeholder="Nombre" required></label>
+        <label>Email<input type="email" placeholder="Mail" id="mail" name="mail" required></label>
+        <label>Mensaje <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulta" required></textarea></label>
+        <input type="hidden" name="custom_form_submitted" value="1">
+        <button type="submit">Enviar</button>
+    </form>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode('custom_simple_form', 'custom_form_shortcode');
