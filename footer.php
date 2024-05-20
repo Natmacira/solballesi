@@ -11,15 +11,23 @@
 ?>
 </main>
 <footer id="footer" class="site-footer">
-
-<h6>Sol Ballesi</h6>
-<p>Psicóloga hispanohablante
-en Berlín 
-</p>
-<a href="mailto:solballesi@gmail.com">solballesi@gmail.com</a>
-	<?php
-	// sol_ballesi_print_menu( 'footer' );
-	?>
+	<section class="sol-info-footer">
+		<h6>Sol Ballesi</h6>
+		<p>Psicóloga hispanohablante
+			en Berlín
+		</p>
+		<?php
+		sol_ballesi_print_menu('footer');
+		?>
+	</section>
+	<section class="alt-info-footer">
+		<figure>
+			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/ALT.svg'); ?>" alt="Logo de Alternativa Laboral Trans">
+			<figcaption>
+				<p>Powered by ALT</p>
+			</figcaption>
+		</figure>
+	</section>
 </footer>
 <?php wp_footer(); ?>
 </body>

@@ -102,6 +102,13 @@ body {
 	}
 
 	section.section-about-me {
+		figure {
+			content: " ";
+			background-image: url(img/linea-verde-mob-2.svg);
+			background-position-y: 181px;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
 		figcaption {
 			padding: 0 16px;
 
@@ -127,20 +134,26 @@ body {
 	section.section-contact {
 		padding: 55px 16px 80px;
 		background-image: linear-gradient(white, #f2f2f2);
-
-		h5 {
-			font-size: 40px;
-			font-weight: 700;
-			color: #4f4f4f;
-			line-height: 66.48px;
-			padding: 0 16px;
-		}
-		img {
-			padding-bottom: 28px;
-		}
-		p {
-			font-weight: 700;
-			line-height: 26.59px;
+		figure {
+			content: " ";
+			background-image: url(img/linea-verde-mob-2.svg);
+			background-position-y: 181px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			h5 {
+				font-size: 40px;
+				font-weight: 700;
+				color: #4f4f4f;
+				line-height: 66.48px;
+				padding: 0 16px;
+			}
+			img {
+				padding-bottom: 28px;
+			}
+			p {
+				font-weight: 700;
+				line-height: 26.59px;
+			}
 		}
 
 		form {
