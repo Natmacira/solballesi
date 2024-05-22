@@ -8,7 +8,7 @@
  */
 
 if ( ! defined( 'SOL_BALLESI_VERSION' ) ) {
-	define( 'SOL_BALLESI_VERSION', '0.0.3' );
+	define( 'SOL_BALLESI_VERSION', '0.0.4' );
 }
 
 add_action(
