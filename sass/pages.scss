@@ -98,12 +98,12 @@ body {
 	}
 
 	section.section-about-work {
-		padding: 230px 16px 80px;
+		padding: 270px 16px 80px;
 		content: " ";
 		background-image: url(img/rulo-rosa-mob-1.svg);
 		background-position-y: 24px;
 		background-repeat: no-repeat;
-		margin-top: -65px;
+		margin-top: -85px;
 		background-size: contain;
 		@include media-desktop {
 			background-image: url(img/rulo-rosa-dk-1.svg);
