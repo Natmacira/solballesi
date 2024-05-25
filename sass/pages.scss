@@ -14,6 +14,7 @@ body {
 		line-height: 26.59px;
 	}
 	section.section-title {
+		padding-top: 32px;
 		figure {
 			content: " ";
 			background-image: url(img/linea-verde-mob-1.svg);
@@ -26,7 +27,7 @@ body {
 				justify-content: left;
 				padding-left: 118px;
 				background-image: url(img/linea-verde-dk-1.svg);
-				background-position-y: 18px;
+				background-position-y: -35px;
 				background-repeat: no-repeat;
 				background-size: contain;
 				position: relative;
@@ -183,7 +184,6 @@ body {
 
 				figcaption {
 					padding-left: 80px;
-				
 				}
 			}
 		}
@@ -191,6 +191,36 @@ body {
 	section.section-therapy-couples {
 		background-image: linear-gradient(white, $theme-green);
 		margin-bottom: 40px;
+		padding-top: 125px;
+		@include media-desktop {
+			figure {
+				position: relative;
+				height: 404px;
+				img {
+					position: absolute;
+					top: -70px;
+					width: 364px;
+					left: 140px;
+				}
+
+				figcaption {
+					padding-left: 41px;
+					padding-top: 90px;
+					margin-left: 518px;
+					padding-right: 80px;
+					div {
+						display: flex;
+						flex-direction: row;
+						align-items: baseline;
+						justify-content: left;
+						p {
+							max-width: 250px;
+							padding-right: 20px;
+						}
+					}
+				}
+			}
+		}
 	}
 
 	section.section-fees {
@@ -198,6 +228,20 @@ body {
 		padding: 40px;
 		border: solid 3px #e0e0e0;
 		border-radius: 4px;
+		@include media-desktop {
+			width: 722px;
+			margin: 0 auto;
+			margin-top: 150px;
+			div {
+				display: flex;
+				align-items: baseline;
+				justify-content: left;
+				p.fee-box {
+					padding-left: 24px;
+				}
+
+			}
+		}
 
 		span {
 			font-size: 20px;
@@ -222,6 +266,13 @@ body {
 			background-position-y: 181px;
 			background-repeat: no-repeat;
 			background-size: contain;
+			@include media-desktop {
+				background-image: url(img/linea-verde-dk-2.svg);
+				background-position-y: 181px;
+				display: flex;
+				padding: 0 134px 0 219px;
+				align-items: end;
+			}
 		}
 		figcaption {
 			padding: 0 16px;

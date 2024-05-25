@@ -61,25 +61,29 @@ global $succes;
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-151.jpg'); ?>" alt="Una imagen tomada de frente, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
 			<figcaption>
 				<h3>Terapia de pareja</h3>
-				<p>En las sesiones de pareja, trabajaremos en conjunto para mejorar la comunicación y resolver conflictos que provocan malestar cotidiano
-					y perturban el desarrollo del vínculo y de cada integrante.
-				</p>
-				<p>
-					Exploramos temas como: expectativas, roles, intimidad, malentendidos, discusiones etc.
-				</p>
-				<p>
-					El objetivo es mejorar la calidad de la relación y fomentar un ambiente de apoyo mutuo y satisfacción emocional.
-				</p>
-				<p>
-					Las consultas duran 60 minutos y la frecuencia puede ser semanal o quincenal.
-				</p>
+				<div>
+					<p>En las sesiones de pareja, trabajaremos en conjunto para mejorar la comunicación y resolver conflictos que provocan malestar cotidiano
+						y perturban el desarrollo del vínculo y de cada integrante.
+					</p>
+					<p>
+						Exploramos temas como: expectativas, roles, intimidad, malentendidos, discusiones etc.
+					</p>
+					<p>
+						El objetivo es mejorar la calidad de la relación y fomentar un ambiente de apoyo mutuo y satisfacción emocional.
+					</p>
+					<p>
+						Las consultas duran 60 minutos y la frecuencia puede ser semanal o quincenal.
+					</p>
+				</div>
 			</figcaption>
 		</figure>
 	</section>
 	<section class="section-fees">
-		<span>Tarifas</span>
-		<p class="fee-box">Sesiones Individuales 85€</p>
-		<p class="fee-box">Sesiones de pareja 120€</p>
+		<div>
+			<span>Tarifas</span>
+			<p class="fee-box">Sesiones Individuales 85€</p>
+			<p class="fee-box">Sesiones de pareja 120€</p>
+		</div>
 		<p>El seguro médico estatal (gesetzliche Krankenkasse) no cubre la terapia, sin embargo ofrezco algunas plazas a tarifas reducidas para estudiantes o personas con ingresos variables.</p>
 	</section>
 	<section class="section-about-me" id="sobre-mi-ancla">
