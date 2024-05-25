@@ -239,7 +239,6 @@ body {
 				p.fee-box {
 					padding-left: 24px;
 				}
-
 			}
 		}
 
@@ -260,6 +259,9 @@ body {
 	}
 
 	section.section-about-me {
+		@include media-desktop {
+			padding-top: 85px;
+		}
 		figure {
 			content: " ";
 			background-image: url(img/linea-verde-mob-2.svg);
@@ -268,10 +270,14 @@ body {
 			background-size: contain;
 			@include media-desktop {
 				background-image: url(img/linea-verde-dk-2.svg);
-				background-position-y: 181px;
+				background-position-y: 0px;
 				display: flex;
 				padding: 0 134px 0 219px;
 				align-items: end;
+
+				img {
+					width: 447px;
+				}
 			}
 		}
 		figcaption {
@@ -293,12 +299,16 @@ body {
 			p {
 				padding-bottom: 8px;
 			}
+			@include media-desktop {
+				padding-left: 58px;
+				padding-bottom: 30px;
+			}
 		}
 	}
 
 	section.section-contact {
 		background-image: linear-gradient(white, #f2f2f2);
-
+		
 		figure {
 			content: " ";
 			background-image: url(img/Ellipse-mob-1.svg);
@@ -359,6 +369,12 @@ body {
 				font-size: 20px;
 				font-weight: bold;
 			}
+		}
+
+		@include media-desktop {
+			display: flex;
+			padding: 0 134px 0 219px;
+			align-items: end;
 		}
 	}
 }
