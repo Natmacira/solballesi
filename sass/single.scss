@@ -3,6 +3,23 @@
 */
 
 body.single.single-post {
-    
+    main {
+        padding: 105px 16px;
 
+        h1,
+        h2 {
+            font-size: 32px;
+            font-size: 32px;
+            font-weight: 100;
+            line-height: 53.18px;
+            margin: 8px 0 24px;
+        }
+        img {
+            padding: 0;
+        }
+
+        p {
+            padding-bottom: 25px;
+        }
+    }
 }

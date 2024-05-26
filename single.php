@@ -7,7 +7,10 @@
  * @package Sol Ballesi
  */
 
-/**
- * It uses the same layout that the home page.
- */
-require 'home.php';
+ get_header(); 
+
+ the_content();
+
+ 
+ get_footer();
+ 
