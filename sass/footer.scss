@@ -39,8 +39,17 @@ body {
 					font-family: "Mukta", sans-serif;
 					text-align: center;
 					padding-bottom: 30px;
+					@include media-desktop {
+					padding-bottom: 0;
+					}
 				}
 			}
+		}
+		@include media-desktop {
+			display: flex;
+			align-items: self-end;
+			justify-content: space-between;
+			height: 300px;
 		}
 	}
 }

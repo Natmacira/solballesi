@@ -115,17 +115,19 @@ global $succes;
 				<h5>Escríbeme!</h5>
 			</figcaption>
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-12.jpg'); ?>" alt="Una imagen tomada con un ángulo lateral alto, donde se ve un recorte de Sol sentada en una mesa con la computadora portátil, escribiendo.">
+		</figure>
+		<div>
+
 			<p>
-				Me encantaría acompañarte.
+				Me encantaría acompañarte. <br>
 				Completa el formulario indicando el motivo de tu consulta.
 			</p>
-		</figure>
+			<?php
+			echo do_shortcode('[custom_simple_form]');
 
+			?>
 
-		<?php
-		echo do_shortcode('[custom_simple_form]');
-
-		?>
+		</div>
 	</section>
 
 	<section class="home-blog">
