@@ -13,13 +13,64 @@ body.single.single-post {
             font-weight: 100;
             line-height: 53.18px;
             margin: 8px 0 24px;
+            @include media-desktop {
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                max-width: 800px;
+                padding-bottom: 24px;
+            }
         }
         img {
             padding: 0;
+            @include media-desktop {
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                max-width: 800px;
+            }
         }
 
         p {
             padding-bottom: 25px;
+            @include media-desktop {
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+        }
+        @include media-desktop {
+            content: " ";
+            background-image: url(img/linea-verde-dk-1.svg);
+            background-position-y: 130px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            &::after {
+                content: " ";
+                background-image: url(img/Rectangle-rosa1.svg);
+                background-position-y: 18px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 185px;
+                height: 185px;
+                position: absolute;
+                top: 365px;
+                right: -101px;
+            }
+            &::before {
+                content: " ";
+                background-image: url(img/Rectangle-verde1.svg);
+                background-position-y: 18px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 290px;
+                height: 290px;
+                position: absolute;
+                top: 204px;
+                right: -170px;
+            }
         }
     }
 }
