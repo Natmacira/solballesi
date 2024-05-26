@@ -1,6 +1,10 @@
 /**
  * Styles changed via user interactions.
  */
+ html {
+	scroll-behavior: smooth;
+
+ }
 
 body {
 	&.page-scrolled {
