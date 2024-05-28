@@ -27,10 +27,11 @@ body {
 				justify-content: left;
 				padding-left: 118px;
 				background-image: url(img/linea-verde-dk-1.svg);
-				background-position-y: -35px;
+				background-position-y: 0;
 				background-repeat: no-repeat;
 				background-size: contain;
 				position: relative;
+				
 			}
 
 			figcaption {
@@ -49,6 +50,7 @@ body {
 						font-size: 64px;
 						font-weight: 100;
 						line-height: 77.45px;
+						padding-top: 115px;
 					}
 				}
 				p {
@@ -78,8 +80,8 @@ body {
 				width: 185px;
 				height: 185px;
 				position: absolute;
-				bottom: -166px;
-				right: -101px;
+				bottom: -115px;
+				right: -99px;
 			}
 		}
 		&::before {
@@ -92,8 +94,8 @@ body {
 				width: 290px;
 				height: 290px;
 				position: absolute;
-				bottom: -125px;
-				right: -170px;
+				bottom: -73px;
+				right: -145px;
 			}
 		}
 	}
@@ -412,4 +414,10 @@ body {
 			}
 		}
 	}
+}
+
+
+input[type='text'],
+input[type='email'] {
+	margin-bottom: 25px;
 }
