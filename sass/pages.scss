@@ -422,6 +422,10 @@ body {
 
 	section.home-blog {
 		padding: 45px 16px;
+		@include media-desktop {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
 
 		h4 {
 			font-size: 40px;
@@ -463,6 +467,11 @@ body {
 		a {
 			line-height: 34px;
 			font-size: 20px;
+			&.ver-mas {
+				float: right;
+				font-size: 24px;
+				line-height: 40px;
+			}
 		}
 	}
 }
@@ -470,4 +479,11 @@ body {
 input[type="text"],
 input[type="email"] {
 	margin-bottom: 25px;
+}
+
+body.page.error404 {
+	main {
+		padding-top: 300px;
+		text-align: center;
+	}
 }
