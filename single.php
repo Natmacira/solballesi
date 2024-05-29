@@ -50,7 +50,7 @@ the_content();
         wp_reset_postdata();
     }
     ?>
-    <a href="https://www.solballesi.com//blog.php" class="ver-mas">Ver más ></a>
+    <a href="https://www.solballesi.com//blog" class="ver-mas">Ver más ></a>
 
 </section>
 <?php
