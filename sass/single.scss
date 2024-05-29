@@ -76,5 +76,51 @@ body.single.single-post {
                 right: -170px;
             }
         }
+        section.home-blog {
+            padding: 45px 16px;
+    
+            h4 {
+                font-size: 40px;
+                font-weight: 700;
+                padding: 8px 0;
+                @include media-desktop {
+                    max-width: 1200px;
+                    display: block;
+                    margin: 0 auto;
+                    padding-left: 10px;
+                    padding-bottom: 8px;
+                }
+            }
+            img {
+                padding: 0;
+                margin: 0;
+            }
+            .post-item {
+                padding-bottom: 24px;
+                @include media-desktop {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    flex-basis: 33.33%;
+                }
+            }
+    
+            article.post-container-blog {
+                @include media-desktop {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: left;
+                    max-width: 1200px;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                }
+            }
+    
+            h2,
+            a {
+                line-height: 34px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
     }
 }

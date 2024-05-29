@@ -2,14 +2,83 @@ body.page-blog {
 	main {
 		padding-left: 16px;
 		padding-right: 16px;
+		padding-bottom: 77px;
+		content: " ";
+		background-image: url(img/linea-verde-mob-1.svg);
+		background-position-y: 155px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		        @include media-desktop {
+            content: " ";
+            background-image: url(img/linea-verde-dk-1.svg);
+            background-position-y: 130px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            &::after {
+                content: " ";
+                background-image: url(img/Rectangle-rosa1.svg);
+                background-position-y: 18px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 185px;
+                height: 185px;
+                position: absolute;
+                top: 365px;
+                right: -101px;
+            }
+            &::before {
+                content: " ";
+                background-image: url(img/Rectangle-verde1.svg);
+                background-position-y: 18px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 290px;
+                height: 290px;
+                position: absolute;
+                top: 204px;
+                right: -170px;
+            }
+        }
 		h1 {
 			font-size: 40px;
 			font-weight: 700;
 			padding: 8px 0;
+			@include media-desktop {
+				max-width: 1200px;
+				display: block;
+				margin: 0 auto;
+				padding-left: 10px;
+				padding-bottom: 8px;
+			}
 		}
 		img {
 			padding: 0;
 			margin: 0;
+		}
+		.post-item {
+			padding-bottom: 24px;
+			@include media-desktop {
+				padding-left: 10px;
+				padding-right: 10px;
+				flex-basis: 33.33%;
+			}
+		}
+
+		section.post-container-blog {
+			@include media-desktop {
+				display: flex;
+				align-items: flex-start;
+				justify-content: left;
+				max-width: 1200px;
+				flex-wrap: wrap;
+				margin: 0 auto;
+			}
+		}
+
+		h2,
+		a {
+			line-height: 34px;
 		}
 	}
 }
