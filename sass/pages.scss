@@ -82,6 +82,7 @@ body {
 				position: absolute;
 				bottom: -115px;
 				right: -99px;
+				z-index: 1;
 			}
 		}
 		&::before {
@@ -96,6 +97,7 @@ body {
 				position: absolute;
 				bottom: -73px;
 				right: -145px;
+				z-index: 1;
 			}
 		}
 	}
@@ -352,6 +354,8 @@ body {
 			background-position-y: 303px;
 			background-repeat: no-repeat;
 			background-size: auto;
+			z-index: 3;
+			position: relative;
 			label {
 				font-weight: 300;
 				font-size: 16px;
@@ -398,6 +402,7 @@ body {
 				position: absolute;
 				bottom: -1px;
 				right: 0;
+				z-index: 1;
 			}
 			&::before {
 				content: " ";
@@ -408,6 +413,7 @@ body {
 				position: absolute;
 				bottom: 93px;
 				left: 0px;
+				z-index: 1;
 			}
 			div {
 				padding-top: 69px;
