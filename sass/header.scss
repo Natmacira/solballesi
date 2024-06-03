@@ -90,6 +90,11 @@ header {
                         }
                     }
                 }
+                &:last-child {
+                    a {
+                        opacity: 50%;
+                    }
+                }
             }
         }
 
@@ -140,8 +145,8 @@ header {
                         display: flex;
                         align-items: center;
                         @include media-desktop {
-                        font-size: 20px;
-                        padding-left: 32px;
+                            font-size: 20px;
+                            padding-left: 32px;
                         }
                     }
 

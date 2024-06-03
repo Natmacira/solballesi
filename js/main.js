@@ -35,3 +35,29 @@ window.addEventListener('load', function () {
 		});
 	}
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuLinks = document.querySelectorAll('a[href*="#"]');
+    
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            const href = this.getAttribute('href');
+            const url = new URL(href, window.location.href);
+            
+            // Solo prevenir el comportamiento por defecto si el enlace es una ancla en la misma página
+            if (url.pathname === window.location.pathname) {
+                event.preventDefault();
+                const targetId = url.hash.substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
+});
+
