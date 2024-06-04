@@ -30,15 +30,15 @@ the_content();
         <article class="post-container-blog">
             <?php
             while ($all_posts_query->have_posts()) {
-                $all_posts_query->the_post(); // Establece los datos de la entrada actual
+                $all_posts_query->the_post(); 
             ?>
                 <div class="post-item">
                     <?php
                     if (has_post_thumbnail()) {
-                        the_post_thumbnail('thumbnail'); // Muestra la imagen destacada
+                        the_post_thumbnail('large'); 
                     }
                     ?>
-                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> <!-- Muestra el título de la entrada con un enlace a la misma -->
+                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> 
                 </div>
             <?php
             }

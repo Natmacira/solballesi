@@ -1,10 +1,9 @@
 /**
  * Styles changed via user interactions.
  */
- html {
+html {
 	scroll-behavior: smooth;
-
- }
+}
 
 body {
 	&.page-scrolled {
@@ -65,6 +64,20 @@ body {
 
 		#form-intro-text {
 			display: none;
+		}
+
+		p.contact-succed {
+			text-align: center;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 39px;
+			padding: 200px 7px 280px;
+			color: #4f4f4f;
+			@include media-desktop {
+				font-size: 40px;
+				line-height: 67px;
+				margin-left: 150px;
+			}
 		}
 	}
 }

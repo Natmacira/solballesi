@@ -540,8 +540,8 @@ function custom_form_handler()
 		$headers = ['Content-Type: text/plain; charset=UTF-8'];
 
 		if (wp_mail($to, $subject, $body, $headers)) {
-			echo '<p class="contact-succed">¡Gracias por escribirme!
-			En breve me estaré comunicando con vos.</p>';
+			echo '<p class="contact-succed">¡Gracias por escribirme! <br>
+			En breve me estaré <br> comunicando con vos.</p>';
 			echo '<script>
 			document.getElementById("body-home").classList.add("form-succed");
 		  </script>';
