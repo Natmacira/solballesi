@@ -36,6 +36,8 @@ window.addEventListener('load', function () {
 	}
 });
 
+// para el smooth de las anclas teniendo los links en el menú de wp
+
 document.addEventListener('DOMContentLoaded', function() {
     const menuLinks = document.querySelectorAll('a[href*="#"]');
     
@@ -44,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const href = this.getAttribute('href');
             const url = new URL(href, window.location.href);
             
-            // Solo prevenir el comportamiento por defecto si el enlace es una ancla en la misma página
             if (url.pathname === window.location.pathname) {
                 event.preventDefault();
                 const targetId = url.hash.substring(1);

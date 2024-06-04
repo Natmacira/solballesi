@@ -57,7 +57,7 @@ if (
 	<?php wp_head(); ?>
 </head>
 
-<body <?php sol_ballesi_print_body_class(); ?>>
+<body <?php sol_ballesi_print_body_class(); ?> id="body-home">
 	<header class="main-theme-header">
 		<div class="inner-container">
 			<a href="<?php bloginfo('url'); ?>" class="site-icon" aria-label="Ir a la sección de inicio del sitio">Sol Ballesi

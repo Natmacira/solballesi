@@ -118,15 +118,14 @@ global $succes;
 		</figure>
 		<div>
 
-			<p>
+			<p id="form-intro-text">
 				Me encantaría acompañarte. <br>
 				Completa el formulario indicando el motivo de tu consulta.
 			</p>
-			<?php
-			echo do_shortcode('[custom_simple_form]');
+				<?php
+				echo do_shortcode('[custom_simple_form]');
 
-			?>
-
+				?>
 		</div>
 	</section>
 
