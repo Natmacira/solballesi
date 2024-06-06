@@ -11,7 +11,7 @@
 get_header();
 
 if (has_post_thumbnail()) {
-    the_post_thumbnail('thumbnail'); // Muestra la imagen destacada
+    the_post_thumbnail('large'); // Muestra la imagen destacada
 }
 the_content();
 ?>

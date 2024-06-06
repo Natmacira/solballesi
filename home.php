@@ -34,7 +34,7 @@ global $succes;
 			<p>
 				En los primeros encuentros me parece importante establecer los objetivos terapéuticos que serán la brújula que guíe el proceso. </p>
 			<p>
-				Vamos a utilizar, además de la palabra, diferentes recursos como por ejemplo, técnicas psicoterapéuticas, textos, películas, ilustraciones, guías, etc </p>
+				Vamos a utilizar, además de la palabra, diferentes recursos como por ejemplo, técnicas psicoterapéuticas, textos, películas, ilustraciones, guías, etc. </p>
 			<p>
 				Las sesiones pueden realizarse virtual o presencialmente en Berlín. </p>
 		</div>
@@ -48,7 +48,7 @@ global $succes;
 					<p>
 						En las sesiones individuales se revisan pensamientos, emociones y patrones de comportamiento que te generan inquietud o angustia. </p>
 					<p>
-						Conversaremos acerca de ti, de tus miedos e inseguridades y construiremos herramientas que te sean útiles para afrontarlos. </p>
+						Conversaremos acerca de ti, <br class="only-desktop-br"> de tus miedos e inseguridades <br class="only-desktop-br"> y construiremos herramientas que te sean útiles para afrontarlos. </p>
 					<p>
 						Las consultas duran 50 minutos y la frecuencia puede ser semanal o quincenal.
 					</p>
@@ -62,14 +62,14 @@ global $succes;
 			<figcaption>
 				<h3>Terapia de pareja</h3>
 				<div>
-					<p>En las sesiones de pareja, trabajaremos en conjunto para mejorar la comunicación y resolver conflictos que provocan malestar cotidiano
-						y perturban el desarrollo del vínculo y de cada integrante.
+					<p>En las sesiones de pareja, trabajaremos en conjunto para mejorar la comunicación, resolver conflictos que provocan malestar cotidiano,
+				 perturban el desarrollo del vínculo y de cada integrante.
 					</p>
 					<p>
 						Exploramos temas como: expectativas, roles, intimidad, malentendidos, discusiones etc.
 					</p>
 					<p>
-						El objetivo es mejorar la calidad de la relación y fomentar un ambiente de apoyo mutuo y satisfacción emocional.
+						El objetivo es mejorar la calidad de la relación, fomentar un ambiente de apoyo mutuo y satisfacción emocional.
 					</p>
 					<p>
 						Las consultas duran 60 minutos y la frecuencia puede ser semanal o quincenal.

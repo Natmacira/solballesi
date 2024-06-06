@@ -9,7 +9,7 @@
  */
 
 if (!defined('SOL_BALLESI_VERSION')) {
-	define('SOL_BALLESI_VERSION', '0.4.9');
+	define('SOL_BALLESI_VERSION', '0.6.9');
 }
 
 add_action(
@@ -534,7 +534,7 @@ function custom_form_handler()
 		$message = sanitize_textarea_field($_POST['consulta']);
 
 		// Puedes procesar los datos aquí, como enviarlos por correo electrónico
-		$to = 'natimciraolo@gmail.com';
+		$to = 'solballesi@gmail.com';
 		$subject = 'Mensaje dejado en Formulario de Contacto';
 		$body = "Nombre: $name\nCorreo: $email\nMensaje:\n$message";
 		$headers = ['Content-Type: text/plain; charset=UTF-8'];

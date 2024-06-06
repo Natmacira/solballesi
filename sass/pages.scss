@@ -13,6 +13,13 @@ body {
 		font-size: 16px;
 		line-height: 26.59px;
 	}
+
+	.only-desktop-br {
+		display: none;
+		@include media-desktop {
+			display: block;
+		}
+	}
 	section.section-title {
 		padding-top: 32px;
 		figure {
@@ -217,7 +224,7 @@ body {
 						align-items: baseline;
 						justify-content: left;
 						p {
-							max-width: 250px;
+							max-width: 222px;
 							padding-right: 20px;
 						}
 					}
