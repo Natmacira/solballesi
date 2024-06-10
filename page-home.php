@@ -80,9 +80,10 @@ global $succes;
 	</section>
 	<section class="section-fees">
 		<div>
-			<span>Tarifas</span>
+		<?php the_content(); ?>
+			<!-- <span>Tarifas</span>
 			<p class="fee-box">Sesiones Individuales 85€</p>
-			<p class="fee-box">Sesiones de pareja 120€</p>
+			<p class="fee-box">Sesiones de pareja 120€</p> -->
 		</div>
 		<p>El seguro médico estatal (gesetzliche Krankenkasse) no cubre la terapia, sin embargo ofrezco algunas plazas a tarifas reducidas para estudiantes o personas con ingresos variables.</p>
 	</section>

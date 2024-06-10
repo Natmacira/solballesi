@@ -9,7 +9,7 @@
  */
 
 if (!defined('SOL_BALLESI_VERSION')) {
-	define('SOL_BALLESI_VERSION', '0.6.9');
+	define('SOL_BALLESI_VERSION', '0.7.9');
 }
 
 add_action(
