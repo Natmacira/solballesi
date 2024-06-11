@@ -63,7 +63,7 @@ global $succes;
 				<h3>Terapia de pareja</h3>
 				<div>
 					<p>En las sesiones de pareja, trabajaremos en conjunto para mejorar la comunicación, resolver conflictos que provocan malestar cotidiano,
-				 perturban el desarrollo del vínculo y de cada integrante.
+						perturban el desarrollo del vínculo y de cada integrante.
 					</p>
 					<p>
 						Exploramos temas como: expectativas, roles, intimidad, malentendidos, discusiones etc.
@@ -80,10 +80,7 @@ global $succes;
 	</section>
 	<section class="section-fees">
 		<div>
-		<?php the_content(); ?>
-			<!-- <span>Tarifas</span>
-			<p class="fee-box">Sesiones Individuales 85€</p>
-			<p class="fee-box">Sesiones de pareja 120€</p> -->
+			<?php the_content(); ?>
 		</div>
 		<p>El seguro médico estatal (gesetzliche Krankenkasse) no cubre la terapia, sin embargo ofrezco algunas plazas a tarifas reducidas para estudiantes o personas con ingresos variables.</p>
 	</section>
@@ -123,10 +120,10 @@ global $succes;
 				Me encantaría acompañarte. <br>
 				Completa el formulario indicando el motivo de tu consulta.
 			</p>
-				<?php
-				echo do_shortcode('[custom_simple_form]');
+			<?php
+			echo do_shortcode('[custom_simple_form]');
 
-				?>
+			?>
 		</div>
 	</section>
 
@@ -144,15 +141,15 @@ global $succes;
 			<article class="post-container-blog">
 				<?php
 				while ($all_posts_query->have_posts()) {
-					$all_posts_query->the_post(); 
+					$all_posts_query->the_post();
 				?>
 					<div class="post-item">
 						<?php
 						if (has_post_thumbnail()) {
-							the_post_thumbnail('large'); 
+							the_post_thumbnail('large');
 						}
 						?>
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> 
+						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					</div>
 				<?php
 				}
