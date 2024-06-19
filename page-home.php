@@ -146,7 +146,16 @@ global $succes;
 					<div class="post-item">
 						<?php
 						if (has_post_thumbnail()) {
-							the_post_thumbnail('large');
+						?>
+
+							<a href="<?php the_permalink(); ?>">
+								<?php
+
+								the_post_thumbnail('large');
+								?>
+
+							</a>
+						<?php
 						}
 						?>
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

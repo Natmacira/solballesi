@@ -20,15 +20,23 @@ if ($all_posts_query->have_posts()) {
     <section class="post-container-blog">
         <?php
         while ($all_posts_query->have_posts()) {
-            $all_posts_query->the_post(); 
+            $all_posts_query->the_post();
         ?>
             <div class="post-item">
                 <?php
                 if (has_post_thumbnail()) {
-                    the_post_thumbnail('large'); 
-                }
                 ?>
-                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> 
+
+                    <a href="<?php the_permalink(); ?>">
+                        <?php
+
+                        the_post_thumbnail('large');
+                        ?>
+
+                    </a>
+                <?php                }
+                ?>
+                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
         <?php
         }

@@ -24,7 +24,11 @@
 		<figure>
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/ALT.svg'); ?>" alt="Logo de Alternativa Laboral Trans">
 			<figcaption>
-				<p>Powered by ALT</p>
+				<p>
+					<!-- <a href="https://altcooperativa.com/"> -->
+						Powered by ALT
+					<!-- </a> -->
+				</p>
 			</figcaption>
 		</figure>
 	</section>
