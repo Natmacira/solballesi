@@ -19,7 +19,12 @@ a {
 }
 
 ul {
-	list-style-type: none;
+    max-width: 800px;
+    margin: 0 auto;
+
+	li {
+		padding-bottom: 20px;
+	}
 }
 
 body {
