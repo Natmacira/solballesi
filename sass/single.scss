@@ -6,10 +6,10 @@ body.single.single-post {
     main {
         padding: 105px 16px;
         content: " ";
-			background-image: url(img/linea-verde-mob-1.svg);
-			background-position-y: 155px;
-			background-repeat: no-repeat;
-			background-size: contain;
+        background-image: url(img/linea-verde-mob-1.svg);
+        background-position-y: 155px;
+        background-repeat: no-repeat;
+        background-size: contain;
         h1,
         h2 {
             font-size: 32px;
@@ -82,7 +82,7 @@ body.single.single-post {
                 max-width: 1200px;
                 margin: 0 auto;
             }
-    
+
             h4 {
                 font-size: 40px;
                 font-weight: 700;
@@ -101,13 +101,16 @@ body.single.single-post {
             }
             .post-item {
                 padding-bottom: 24px;
+                img {
+                    height: 246px;
+                }
                 @include media-desktop {
                     padding-left: 10px;
                     padding-right: 10px;
                     flex-basis: 33.33%;
                 }
             }
-    
+
             article.post-container-blog {
                 @include media-desktop {
                     display: flex;
@@ -118,7 +121,7 @@ body.single.single-post {
                     margin: 0 auto;
                 }
             }
-    
+
             h2,
             a {
                 line-height: 34px;

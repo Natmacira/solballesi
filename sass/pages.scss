@@ -254,7 +254,6 @@ body {
 			font-weight: 700;
 			line-height: 33.24px;
 			margin-bottom: -60px;
-		
 		}
 		p {
 			padding-top: 16px;
@@ -461,6 +460,9 @@ body {
 		}
 		.post-item {
 			padding-bottom: 24px;
+			img {
+				height: 246px;
+			}
 			@include media-desktop {
 				padding-left: 10px;
 				padding-right: 10px;

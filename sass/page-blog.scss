@@ -58,6 +58,9 @@ body.page-blog {
 		}
 		.post-item {
 			padding-bottom: 24px;
+			img {
+				height: 246px;
+			}
 			@include media-desktop {
 				padding-left: 10px;
 				padding-right: 10px;
