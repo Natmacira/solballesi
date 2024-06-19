@@ -35,6 +35,9 @@ body.single.single-post {
             }
         }
 
+        ul {
+            padding: 0 20px;
+        }
         p {
             padding-bottom: 25px;
             @include media-desktop {

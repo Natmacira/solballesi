@@ -1,5 +1,5 @@
 header {
-    height: 50px;
+    height: 99px;
     width: 100%;
     position: fixed;
     z-index: 5;
@@ -7,6 +7,7 @@ header {
     background-color: white;
     color: #000;
     padding-top: 20px;
+    box-shadow: 0px 0px 5px 0px grey;
 
     .inner-container {
         padding: 3px;
@@ -21,6 +22,8 @@ header {
             max-width: 1600px;
             height: auto;
             margin: 0 auto;
+            height: 50px;
+
         }
 
         a.site-icon {
@@ -35,6 +38,8 @@ header {
             padding: 0;
             margin: 0;
             list-style: none;
+
+
             li {
                 &.current-menu-item,
                 &:hover {
@@ -126,7 +131,7 @@ header {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                padding: 0 30px 0 10px;
+                padding: 12px 30px 0 10px;
                 font-size: 14px;
                 position: relative;
 
