@@ -3,6 +3,9 @@
 */
 
 body.single.single-post {
+    ul {
+        padding: 0 20px !important;
+    }
     main {
         padding: 105px 16px;
         content: " ";
@@ -35,9 +38,7 @@ body.single.single-post {
             }
         }
 
-        ul {
-            padding: 0 20px;
-        }
+       
         p {
             padding-bottom: 25px;
             @include media-desktop {
