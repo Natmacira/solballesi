@@ -534,9 +534,9 @@ function custom_form_handler()
 		$message = sanitize_textarea_field($_POST['consulta']);
 
 		// Puedes procesar los datos aquí, como enviarlos por correo electrónico
-		$to = 'solballesi@gmail.com';
+		$to 	 = 'info@solballesi.com';
 		$subject = 'Mensaje dejado en Formulario de Contacto';
-		$body = "Nombre: $name\nCorreo: $email\nMensaje:\n$message";
+		$body 	 = "Nombre: $name\nCorreo: $email\nMensaje:\n$message";
 		$headers = ['Content-Type: text/plain; charset=UTF-8'];
 
 		if (wp_mail($to, $subject, $body, $headers)) {
