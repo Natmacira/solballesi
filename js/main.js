@@ -10,13 +10,20 @@ window.addEventListener('load', function () {
 	});
 
 	const hamburgerButton = document.getElementById('hamburger-menu-toggler');
-	
+	const hamburgerMenuElements = document.getElementsByClassName('menu-item');
+
 	if (hamburgerButton) {
 		hamburgerButton.addEventListener('click', function () {
 			document.body.classList.toggle('hamburger-menu-active');
 		});
 	}
+
 	
+	for (let menuItem of hamburgerMenuElements) {
+		menuItem.addEventListener('click', function () {
+			document.body.classList.remove('hamburger-menu-active');
+		});
+	}
 
 	const menuItems = document.querySelectorAll('.menu-item');
 	const openMenuButtons = document.querySelectorAll('.open-submenu');
@@ -39,27 +46,27 @@ window.addEventListener('load', function () {
 
 // para el smooth de las anclas teniendo los links en el menú de wp
 
-document.addEventListener('DOMContentLoaded', function() {
-    const menuLinks = document.querySelectorAll('a[href*="#"]');
+document.addEventListener('DOMContentLoaded', function () {
+	const menuLinks = document.querySelectorAll('a[href*="#"]');
 
-    menuLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-            const href = this.getAttribute('href');
-            const url = new URL(href, window.location.href);
-            
-            if (url.pathname === window.location.pathname) {
-                event.preventDefault();
-                const targetId = url.hash.substring(1);
-                const targetElement = document.getElementById(targetId);
-                
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-            }
-        });
-    });
+	menuLinks.forEach(link => {
+		link.addEventListener('click', function (event) {
+			const href = this.getAttribute('href');
+			const url = new URL(href, window.location.href);
+
+			if (url.pathname === window.location.pathname) {
+				event.preventDefault();
+				const targetId = url.hash.substring(1);
+				const targetElement = document.getElementById(targetId);
+
+				if (targetElement) {
+					window.scrollTo({
+						top: targetElement.offsetTop,
+						behavior: 'smooth'
+					});
+				}
+			}
+		});
+	});
 });
 
