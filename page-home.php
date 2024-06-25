@@ -89,7 +89,7 @@ global $succes;
 			<img src="<?php echo esc_attr(get_stylesheet_directory_uri() . '/img/Sol-18.jpg'); ?>" alt="Una imagen tomada de costado, donde se la ve a Sol sentada en un almohadon en el suelo, con las piernas cruzadas escribiendo en un cuaderno.">
 			<figcaption>
 				<h4>SOBRE MI</h4>
-				<span>Hola Soy Sol, psicóloga y amante de la lectura.</span>
+				<span>Hola soy Sol, psicóloga y amante de la lectura.</span>
 				<p>
 					Comprometida con la salud mental, llevo más de 8 años brindando psicoterapia y más de 2 participando y organizando círculos de lectura. </p>
 				<p>
