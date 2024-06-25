@@ -464,9 +464,9 @@ body {
 		}
 		.post-item {
 			padding-bottom: 24px;
-			img {
-				height: 246px;
-			}
+		
+			@include post-block;
+
 			@include media-desktop {
 				padding-left: 10px;
 				padding-right: 10px;

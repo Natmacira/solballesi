@@ -3,6 +3,7 @@ body.page-blog {
 		padding-left: 16px;
 		padding-right: 16px;
 		padding-bottom: 77px;
+		padding-top: 100px;
 		content: " ";
 		background-image: url(img/linea-verde-mob-1.svg);
 		background-position-y: 155px;
@@ -58,9 +59,9 @@ body.page-blog {
 		}
 		.post-item {
 			padding-bottom: 24px;
-			img {
-				height: 246px;
-			}
+		     
+			@include post-block;
+		
 			@include media-desktop {
 				padding-left: 10px;
 				padding-right: 10px;
