@@ -10,14 +10,13 @@ window.addEventListener('load', function () {
 	});
 
 	const hamburgerButton = document.getElementById('hamburger-menu-toggler');
-	console.log('hola');
-
+	
 	if (hamburgerButton) {
 		hamburgerButton.addEventListener('click', function () {
 			document.body.classList.toggle('hamburger-menu-active');
-			console.log('nati');
 		});
 	}
+	
 
 	const menuItems = document.querySelectorAll('.menu-item');
 	const openMenuButtons = document.querySelectorAll('.open-submenu');
@@ -42,7 +41,6 @@ window.addEventListener('load', function () {
 
 document.addEventListener('DOMContentLoaded', function() {
     const menuLinks = document.querySelectorAll('a[href*="#"]');
-	console.log('chau');
 
     menuLinks.forEach(link => {
         link.addEventListener('click', function(event) {

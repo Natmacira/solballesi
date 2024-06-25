@@ -573,8 +573,4 @@ function custom_form_shortcode()
 add_shortcode('custom_simple_form', 'custom_form_shortcode');
 
 
-function enqueue_custom_script()
-{
-	wp_enqueue_script('smooth-scroll', get_template_directory_uri() . '/js/main.js', array('jquery'), null, true);
-}
-add_action('wp_enqueue_scripts', 'enqueue_custom_script');
+
