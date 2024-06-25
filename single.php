@@ -37,7 +37,7 @@ the_content();
                     if (has_post_thumbnail()) {
                         ?>
 
-                        <a href="<?php the_permalink(); ?>">
+                        <a class="link-img-container" href="<?php the_permalink(); ?>">
                             <?php
 
                             the_post_thumbnail('large');
